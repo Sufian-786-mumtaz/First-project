@@ -12,34 +12,33 @@ body{
 img{
     max-width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 P,h1,h2,h3,h4,h5,h6{
     padding: 0px;
     margin: 0px;
 }
+.navbar{
+    padding: 15px 0px;
+    padding-right: 90px;
+}
 .navbar-brand{
     width: 25%;
 }
 .logo{
-    width: 100%;
+    width: 75%;
     height: auto;
     padding-left: 43px;
     transition: ease 1s;
 }
-.Sec1_container{ 
-    position: fixed;
-    right: 0;
-    left: 0;
+.box_shadow{ 
     box-shadow: 0px -8px 20px #333;
-    top: 0px;
-    z-index: 1030;
-    background-color: white;
 }
 .hover_anchor{
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 10px 10px !important;
+    padding: 10px 16px !important;
     color: #8c8c8c !important;
     font-weight: 400;
     font-size: 14px;
@@ -67,7 +66,9 @@ P,h1,h2,h3,h4,h5,h6{
 }
 .hero_img{
     display: block;
-    margin-top: 52px;
+}
+.hero_width{
+    width: 100% !important;
 }
 .line{
     border-top: 2px solid #000281;
@@ -98,8 +99,11 @@ hr{
     opacity: 0.3;
     padding-bottom: 35px;
 }
+.img_width{
+    margin: 0 auto;
+}
 .sec4_container{
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 .sec4_div_text>h3{
     color: #000281;
@@ -361,6 +365,7 @@ hr{
     font-size: 18px;
     font-weight: 400;
     color: white;
+    text-align: center;
 }
 .sec9_flex2_container{
     display: flex;
@@ -386,6 +391,7 @@ hr{
 .sec9_img_style{
     width: 214px;
     display: block;
+    margin: 0px;
 }
 .sec9_flex2_div2>ul{
     display: inline;
@@ -408,7 +414,7 @@ hr{
 }
 #icon1_style{
     color: white;
-    font-size: 2em;
+    font-size: 24px
 }
 .sec9_icon_para{
     color: white;
@@ -452,6 +458,7 @@ hr{
 }
 .icon4_div1{
     width: 10%;
+    
 }
 #icon4_style{
     color: white;
@@ -467,6 +474,10 @@ hr{
     font-size: 10px;
     color: #727272;
 }
+.nav2{
+    padding: 0px;
+    line-height: 30px;
+}
 .nav2>li>a{
     color: white;
 }
@@ -475,6 +486,11 @@ hr{
 }
 
 /* media quries for responsive design */
+@media only screen and (max-width:1092px) {
+    .navbar{
+        padding-right: 0px;
+    }
+}
 @media only screen and (max-width:992px) {
     .navbar-collapse{
         padding-left: 30px;
@@ -514,12 +530,12 @@ hr{
 }
 @media only screen and (max-width:678px) {
     .navbar-brand{
-        width: 30%;
+        width: 40%;
     }
 }
 @media only screen and (max-width:586px){  
     .navbar-brand{
-        width: 30%;
+        width: 40%;
     }
     .logo{
         padding-left:30px ;
@@ -527,15 +543,18 @@ hr{
 } 
 @media only screen and (max-width:425px){  
     .navbar-brand{
-        width: 40%
+        width: 50%
     }
     .logo{
         padding-left:30px ;
     }
+    .sec4_div_text{
+        text-align: center;
+    }
 }
 @media only screen and (max-width:375px){
     .navbar-brand{
-        width: 40%;
+        width: 50%;
     }
     .logo{
         padding-left:25px ;
@@ -543,7 +562,7 @@ hr{
 }
     @media only screen and (max-width:325px){
         .navbar-brand{
-            width: 40%;
+            width: 50%;
         }
         .logo{
             padding-left:25px ;
@@ -551,7 +570,7 @@ hr{
     }
     @media only screen and (max-width:272px){
         .navbar-brand{
-            width: 40%;
+            width: 50%;
         }
         .logo{
             padding-left:25px ;
