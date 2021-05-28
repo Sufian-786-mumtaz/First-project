@@ -64,9 +64,7 @@ P,h1,h2,h3,h4,h5,h6{
 }
 .hero_img{
     display: block;
-    margin-top: 72px;
-}
-.hero_img>img{]
+    margin-top: 52px;
 }
 .line{
     border-top: 2px solid #000281;
@@ -341,19 +339,7 @@ hr{
     width: 80%;
     margin: auto;
 }
-.sec9_div1{
-    
-}
-.sec9_div2{
-    
-}
-.sec9_div3{
-    
-}
-.sec9_div4{
-  
-}
-.sec9_div1.line{
+.sec9_div1 .line{
     text-align: left;
 }
 .line2{
@@ -525,12 +511,12 @@ hr{
 }
 @media only screen and (max-width:678px) {
     .navbar-brand{
-        width: 45%;
+        width: 30%;
     }
 }
 @media only screen and (max-width:586px){  
     .navbar-brand{
-        width: 50%;
+        width: 30%;
     }
     .logo{
         padding-left:30px ;
@@ -538,7 +524,7 @@ hr{
 } 
 @media only screen and (max-width:425px){  
     .navbar-brand{
-        width: 55%
+        width: 40%
     }
     .logo{
         padding-left:30px ;
@@ -546,16 +532,24 @@ hr{
 }
 @media only screen and (max-width:375px){
     .navbar-brand{
-        width: 60%;
+        width: 40%;
     }
     .logo{
         padding-left:25px ;
     }
     @media only screen and (max-width:325px){
         .navbar-brand{
-            width: 70%;
+            width: 40%;
         }
         .logo{
             padding-left:25px ;
         }
-}
+    }
+    @media only screen and (max-width:272px){
+        .navbar-brand{
+            width: 40%;
+        }
+        .logo{
+            padding-left:25px ;
+        }
+    }
