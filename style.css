@@ -65,8 +65,8 @@ P,h1,h2,h3,h4,h5,h6{
     font-weight: 400;
     text-decoration: none;
 }
-.hero_img{
-    display: block;
+ol.carousel-indicators{
+    list-style-type: circle;
 }
 .hero_width{
     width: 100% !important;
